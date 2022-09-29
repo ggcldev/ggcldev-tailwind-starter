@@ -4,7 +4,8 @@
   "description": "Simple starter for creating projects using Tailwind framework",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tailwindcss -i ./src/input.css -o ./dist/css/style.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./dist/css/style.css --watch"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ggcldev/ggcldev-tailwind-starter/issues"
   },
-  "homepage": "https://github.com/ggcldev/ggcldev-tailwind-starter#readme"
+  "homepage": "https://github.com/ggcldev/ggcldev-tailwind-starter#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
 }
