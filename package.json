@@ -1,7 +1,7 @@
 {
   "name": "ggcldev-tailwind-starter",
   "version": "1.0.0",
-  "description": "Simple starter for creating projects using Tailwind framework",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "tailwindcss -i ./src/input.css -o ./dist/css/style.css",
@@ -11,6 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/ggcldev/ggcldev-tailwind-starter.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
